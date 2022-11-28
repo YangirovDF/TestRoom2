@@ -63,5 +63,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     androidTestImplementation "androidx.test.ext:junit:$rootProject.androidxJunitVersion"
+
+
+    implementation "ru.tinkoff.decoro:decoro:1.5.1"
 }
 
